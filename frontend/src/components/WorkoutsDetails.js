@@ -7,7 +7,7 @@ const WorkoutsDetails = ({ workout }) => {
 
   const handleClick = async () => {
     try {
-      const apiUrl = "http://localhost:4000"; // replace with your backend URL
+      const apiUrl = "https://real-pink-abalone-kit.cyclic.app"; // replace with your backend URL
       const response = await fetch(`${apiUrl}/api/workouts/${workout._id}`, {
         method: "DELETE",
       });

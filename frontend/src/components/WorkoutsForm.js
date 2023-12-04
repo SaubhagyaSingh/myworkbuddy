@@ -12,7 +12,7 @@ const WorkoutForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const apiUrl = "http://localhost:4000"; // replace with your backend URL
+    const apiUrl = "https://real-pink-abalone-kit.cyclic.app"; // replace with your backend URL
 
     if (!title || !load || !reps) {
       setError("All fields are required.");
